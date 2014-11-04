@@ -84,12 +84,7 @@
 		29DFA1C81A091120009D0FB7 /* Table View */ = {
 			isa = PBXGroup;
 			children = (
-				29DFA1CD1A091120009D0FB7 /* AppDelegate.h */,
-				29DFA1CE1A091120009D0FB7 /* AppDelegate.m */,
-				29DFA1D01A091120009D0FB7 /* MasterViewController.h */,
-				29DFA1D11A091120009D0FB7 /* MasterViewController.m */,
-				29DFA1D31A091120009D0FB7 /* DetailViewController.h */,
-				29DFA1D41A091120009D0FB7 /* DetailViewController.m */,
+				29DFA1F21A09113A009D0FB7 /* src */,
 				29DFA1D61A091120009D0FB7 /* Main.storyboard */,
 				29DFA1D91A091120009D0FB7 /* Images.xcassets */,
 				29DFA1DB1A091120009D0FB7 /* LaunchScreen.xib */,
@@ -122,6 +117,19 @@
 				29DFA1E71A091120009D0FB7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29DFA1F21A09113A009D0FB7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				29DFA1CD1A091120009D0FB7 /* AppDelegate.h */,
+				29DFA1CE1A091120009D0FB7 /* AppDelegate.m */,
+				29DFA1D01A091120009D0FB7 /* MasterViewController.h */,
+				29DFA1D11A091120009D0FB7 /* MasterViewController.m */,
+				29DFA1D31A091120009D0FB7 /* DetailViewController.h */,
+				29DFA1D41A091120009D0FB7 /* DetailViewController.m */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
