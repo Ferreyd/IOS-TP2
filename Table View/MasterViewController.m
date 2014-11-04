@@ -32,13 +32,23 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    //fallait ajouter que ça  lol
+    if (!self.objects) {
+        self.objects = [[NSMutableArray alloc] init];
+    }
+    
+    [self.objects addObject:@"titre1"];
+    [self.objects addObject:@"titre2"];
+    [self.objects addObject:@"titre3"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//Methode appele quand on appuie sur le +
+//Permet d'inserer un nouvel objet
 - (void)insertNewObject:(id)sender {
     if (!self.objects) {
         self.objects = [[NSMutableArray alloc] init];
